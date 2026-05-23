@@ -7,8 +7,8 @@ def generate_password(lenght):
         return password
     
 for n in range(4):
-    lenght = int(input("طول پسوورد؟"))
+    lenght = int(input("length of your password?"))
     print("password:", generate_password(lenght)) 
-print("تعداد تلاش ها بیش از حد مجاز")
+print("Too many attempts")
 
 
